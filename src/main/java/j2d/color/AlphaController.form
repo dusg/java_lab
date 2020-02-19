@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="j2d.color.AlphaController">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="1c1a8" layout-manager="GridLayoutManager" row-count="13" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6bc2a" class="javax.swing.JRadioButton" binding="clearRadioButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <selected value="true"/>
+              <text value="clear"/>
+            </properties>
+          </component>
+          <vspacer id="b3f44">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="7138d" class="javax.swing.JRadioButton" binding="srcOverRadioButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="src over"/>
+            </properties>
+          </component>
+          <component id="e4cdc" class="javax.swing.JRadioButton" binding="dstOverRadioButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="dst over"/>
+            </properties>
+          </component>
+          <component id="95977" class="javax.swing.JRadioButton" binding="srcInRadioButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="src in"/>
+            </properties>
+          </component>
+          <component id="7e25e" class="javax.swing.JRadioButton" binding="dstInRadioButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="dst in"/>
+            </properties>
+          </component>
+          <component id="2fc1f" class="javax.swing.JRadioButton" binding="srcOutRadioButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="src out"/>
+            </properties>
+          </component>
+          <component id="a8812" class="javax.swing.JRadioButton" binding="dstOutRadioButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="dst out"/>
+            </properties>
+          </component>
+          <component id="b83fe" class="javax.swing.JRadioButton" binding="srcRadioButton" default-binding="true">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="src"/>
+            </properties>
+          </component>
+          <component id="66e9b" class="javax.swing.JRadioButton" binding="dstRadioButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="dst"/>
+            </properties>
+          </component>
+          <component id="10264" class="javax.swing.JRadioButton" binding="srcAtopRadioButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="src atop"/>
+            </properties>
+          </component>
+          <component id="a9205" class="javax.swing.JRadioButton" binding="dstAtopRadioButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="dst atop"/>
+            </properties>
+          </component>
+          <component id="8a882" class="javax.swing.JRadioButton" binding="xorRadioButton" default-binding="true">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="xor"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e445e" binding="compositePanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="6bc2a"/>
+      <member id="7138d"/>
+      <member id="e4cdc"/>
+      <member id="95977"/>
+      <member id="7e25e"/>
+      <member id="2fc1f"/>
+      <member id="a8812"/>
+      <member id="b83fe"/>
+      <member id="66e9b"/>
+      <member id="10264"/>
+      <member id="a9205"/>
+      <member id="8a882"/>
+    </group>
+  </buttonGroups>
+</form>
